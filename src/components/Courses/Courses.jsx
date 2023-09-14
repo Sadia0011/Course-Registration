@@ -4,7 +4,7 @@ import Course from "../Course/Course";
 import PropTypes from 'prop-types'
 
 
-const Courses = () => {
+const Courses = ({handleTakenCourses}) => {
     const [courses,setcourses]=useState([])
     useEffect(()=>{
         fetch('../../../public/course.json')
@@ -14,12 +14,13 @@ const Courses = () => {
     return (
         <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {
-                courses.map(course=><Course key={course.id} course={course}></Course>)
+                courses.map(course=><Course key={course.id} course={course}
+                    handleTakenCourses={handleTakenCourses}></Course>)
                 }
         </div>
     );
 };
 Courses.propTypes={
-    courses:PropTypes.array
+    courses:PropTypes.array,handleTakenCourses:PropTypes.func
 }
 export default Courses;

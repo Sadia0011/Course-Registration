@@ -1,11 +1,17 @@
 
-
-const TakenCourse = () => {
+import PropTypes from 'prop-types'
+const TakenCourse = ({takenCourse}) => {
+    // console.log(takenCourse)
+    const {name}=takenCourse;
+   
     return (
-        <div className="bg-slate-200">
-            <h1>Taken Course:</h1>
+        <div >
+         
+    <ol className='mb-2 rounded-lg p-2'>{name}</ol>
         </div>
     );
 };
-
+TakenCourse.propTypes={
+    takenCourse:PropTypes.object
+}
 export default TakenCourse;
