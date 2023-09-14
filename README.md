@@ -8,7 +8,7 @@ Add at least 3 Project features.
 Discuss how you managed the state in your assignment project.
 
 1. useState():
-   -courses:It stores all the objects in an array which are fetched by useEffect()
+   - courses:It stores all the objects in an array which are fetched by useEffect()
    - takenCourses: It tracks the courses that have been selected by the user.
    - creditHr: It stores the remaining credit hours that the user can register for.
    - totalCredit: It keeps track of the total credit hours of the selected courses.
