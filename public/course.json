@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Introduction to Programming",
-      "img": "https://i.ibb.co/3d0J4wt/Rectangle-2.png",
+      "img": "https://i.ibb.co/ynjQJL3/Rectangle-2-4.png",
       "description": "A beginner's guide to programming concepts and problem-solving.",
       "price": 29000,
       "credit": 3
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "name": "Data Structures and Algorithms",
-      "img": "https://i.ibb.co/GCTRnpB/Rectangle-2-1.png",
+      "img": "https://i.ibb.co/Cmmd6b4/Rectangle-2-3.png",
       "description": "Learn fundamental data structures and algorithms for efficient problem-solving.",
       "price": 39000,
       "credit": 4
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "name": "Machine Learning Fundamentals",
-      "img": "https://i.ibb.co/Cmmd6b4/Rectangle-2-3.png",
+      "img": "https://i.ibb.co/3d0J4wt/Rectangle-2.png",
       "description": "An introduction to machine learning techniques and algorithms.",
       "price": 49000,
       "credit": 4
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "name": "Database Management",
-      "img": "https://i.ibb.co/ynjQJL3/Rectangle-2-4.png",
+      "img": "https://i.ibb.co/GCTRnpB/Rectangle-2-1.png",
       "description": "Learn how to design and manage databases efficiently.",
       "price": 34000,
       "credit": 3
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "name": "Computer Networks",
-      "img": "https://i.ibb.co/crcDjF5/Rectangle-2-5.png",
+      "img": "https://i.ibb.co/ZNLRbdX/Rectangle-2-6.png",
       "description": "Explore the fundamentals of computer networking and protocols.",
       "price": 44000,
       "credit": 4
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "name": "Software Engineering Principles",
-      "img": "https://i.ibb.co/ZNLRbdX/Rectangle-2-6.png",
+      "img": "https://i.ibb.co/crcDjF5/Rectangle-2-5.png",
       "description": "Learn software development methodologies and best practices.",
       "price": 39000,
       "credit": 3
