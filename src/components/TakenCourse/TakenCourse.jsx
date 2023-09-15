@@ -5,10 +5,12 @@ const TakenCourse = ({takenCourse}) => {
     const {name}=takenCourse;
    
     return (
-        <div >
-         
-    <ol className='mb-2 rounded-lg p-2'>{name}</ol>
-        </div>
+    <div>
+        <ol className='list-decimal list-inside'>
+        <li className='rounded-lg p-2 text-base font-normal'>{name}</li>
+        </ol>
+    </div>
+      
     );
 };
 TakenCourse.propTypes={

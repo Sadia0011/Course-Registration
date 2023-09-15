@@ -5,11 +5,11 @@ import PropTypes from 'prop-types'
 
 
 const Courses = ({handleTakenCourses}) => {
-    const [courses,setcourses]=useState([])
+    const [courses,setCourses]=useState([])
     useEffect(()=>{
         fetch('../../../public/course.json')
         .then(res=>res.json())
-        .then(data=>setcourses(data))
+        .then(data=>setCourses(data))
     },[])
     return (
         <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
