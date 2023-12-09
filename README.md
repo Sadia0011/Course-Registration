@@ -7,7 +7,7 @@
 # Website Link
 https://65047864a69fa03eedb2b500--radiant-bombolone-82d2c1.netlify.app/?fbclid=IwAR0j43WCjVyny-w7hiq4rY0wo4FmhcUBALzDg9jnVyJM8ts1P_VDLzyfVmw
 
-# Discuss how i managed the state in this project.
+# how i managed the state in this project.
 
 - useState():
    - courses:It stores all the objects in an array which are fetched by useEffect()
